@@ -11,7 +11,7 @@ def hello_world():
 
 # define url router, this function will respond when a user visits "/devnet"
 @app.route('/devnet')
-def hello_world():
+def hello_devnet():
     return 'Hello, DevNet!'
 
 # main entry
